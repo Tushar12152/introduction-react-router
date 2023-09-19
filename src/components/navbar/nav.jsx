@@ -1,5 +1,5 @@
-import { Link,  } from "react-router-dom";
-
+import { NavLink  } from "react-router-dom";
+import '../navbar/nav.css'
 const Nav = () => {
     return (
         <div>
@@ -9,11 +9,11 @@ const Nav = () => {
                        <li className="bg-violet-800 p-2 rounded-lg hover:bg-violet-300"><a href="/about">About</a></li>
                        <li className="bg-violet-800 p-2 rounded-lg hover:bg-violet-300"><a href="/contact">Contact Us</a></li> */}
                       
-                      <Link className="bg-violet-800 p-2 rounded-lg hover:bg-violet-300" to="/home">Home</Link>
-                      <Link className="bg-violet-800 p-2 rounded-lg hover:bg-violet-300" to="/about">About</Link>
-                      <Link className="bg-violet-800 p-2 rounded-lg hover:bg-violet-300" to="/contact">Contact</Link>
-                      <Link className="bg-violet-800 p-2 rounded-lg hover:bg-violet-300" to='/user'>User</Link>
-                      <Link  className="bg-violet-800 p-2 rounded-lg hover:bg-violet-300" to="/post">Post</Link>
+                      <NavLink className="bg-violet-800 p-2 rounded-lg hover:bg-violet-300" to="/home">Home</NavLink>
+                      <NavLink className="bg-violet-800 p-2 rounded-lg hover:bg-violet-300" to="/about">About</NavLink>
+                      <NavLink className="bg-violet-800 p-2 rounded-lg hover:bg-violet-300" to="/contact">Contact</NavLink>
+                      <NavLink className="bg-violet-800 p-2 rounded-lg hover:bg-violet-300" to='/user'>User</NavLink>
+                      <NavLink  className="bg-violet-800 p-2 rounded-lg hover:bg-violet-300" to="/post">Post</NavLink>
                   </div>
 
                   <div>
