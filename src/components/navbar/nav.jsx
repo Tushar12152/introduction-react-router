@@ -13,6 +13,7 @@ const Nav = () => {
                       <Link className="bg-violet-800 p-2 rounded-lg hover:bg-violet-300" to="/about">About</Link>
                       <Link className="bg-violet-800 p-2 rounded-lg hover:bg-violet-300" to="/contact">Contact</Link>
                       <Link className="bg-violet-800 p-2 rounded-lg hover:bg-violet-300" to='/user'>User</Link>
+                      <Link  className="bg-violet-800 p-2 rounded-lg hover:bg-violet-300" to="/post">Post</Link>
                   </div>
 
                   <div>

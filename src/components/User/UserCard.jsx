@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 const UserCard = ({user}) => {
-    console.log(user)
+    // console.log(user)
     const {name,username,email,website}=user
     return (
         <div>
