@@ -1,4 +1,4 @@
-import { Link, Outlet } from "react-router-dom";
+import { Link,  } from "react-router-dom";
 
 const Nav = () => {
     return (
@@ -12,13 +12,14 @@ const Nav = () => {
                       <Link className="bg-violet-800 p-2 rounded-lg hover:bg-violet-300" to="/home">Home</Link>
                       <Link className="bg-violet-800 p-2 rounded-lg hover:bg-violet-300" to="/about">About</Link>
                       <Link className="bg-violet-800 p-2 rounded-lg hover:bg-violet-300" to="/contact">Contact</Link>
+                      <Link className="bg-violet-800 p-2 rounded-lg hover:bg-violet-300" to='/user'>User</Link>
                   </div>
 
                   <div>
                          <h1>logo</h1>
                   </div>
              </div>
-             <Outlet></Outlet>
+             
         </div>
     );
 };
